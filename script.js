@@ -5,6 +5,7 @@ const buildScreen = async () => {
     "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1"
   );
   const coins = await response.json();
+  console.log(coins);
 
   coins.forEach((coin) => {
     const card = document.createElement("div");
