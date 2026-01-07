@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#crypto-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 20px;
+
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.expensive {
+  border-color: gold;
+  box-shadow: 0 0 10px gold;
+}
+.shitcoin {
+  border-color: silver;
+  box-shadow: 0 0 10px silver;
+}
