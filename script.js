@@ -9,7 +9,6 @@ const buildScreen = async () => {
   coins.forEach((coin) => {
     const card = document.createElement("div");
     card.classList.add("card");
-    coins.sort((a, b) => a.name.localeCompare(b.name));
 
     coins.sort((a, b) => {
       if (a.name < b.name) return -1;
